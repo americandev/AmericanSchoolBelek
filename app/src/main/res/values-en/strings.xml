@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AmericanSchool</string>
+    <string name="app_subtitle">School</string>
+    <string name="news_titles">News</string>
+    <string name="service_language">Language Course</string>
+    <string name="service_camp">Summer Camp</string>
+    <string name="service_talking">Talking club</string>
+    <string name="button_call">Call Now</string>
+    <string name="services_title">Services;</string>
+</resources>
