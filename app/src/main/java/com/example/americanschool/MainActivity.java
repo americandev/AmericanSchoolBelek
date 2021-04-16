@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private ConstraintLayout service_toefl;
     private  TextView callBtn;
     private ConstraintLayout banner;
+    int x = 5;
 
 
     @Override
