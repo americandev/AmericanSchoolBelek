@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        service_language = findViewById(R.id.service_language);
+         service_language = findViewById(R.id.service_language);
          service_camp = findViewById(R.id.service_camp);
          service_talking = findViewById(R.id.service_talking);
          service_toefl = findViewById(R.id.service_toefl);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
          callBtn.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-                 String number = "+996705353330";
+                 String number = "+996777007017";
                  Uri myUri = Uri.parse("tel:" + number);
                  Intent myIntent = new Intent(Intent.ACTION_DIAL, myUri);
                  startActivity(myIntent);
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
          banner.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-                 String link = "http://google.com";
+                 String link = "http://apple.com";
                  Uri myUri = Uri.parse(link);
                  Intent myIntent = new Intent(Intent.ACTION_VIEW, myUri);
                  startActivity(myIntent);
