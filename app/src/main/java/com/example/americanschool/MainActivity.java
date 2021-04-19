@@ -11,11 +11,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-//    private ConstraintLayout service_language;
-//    private ConstraintLayout service_camp;
-//    private ConstraintLayout service_talking;
-//    private ConstraintLayout service_toefl;
-//    private  TextView callBtn;
+    private ConstraintLayout service_language;
+    private ConstraintLayout service_camp;
+    private ConstraintLayout service_talking;
+    private ConstraintLayout service_toefl;
+    private  TextView callBtn;
     private ConstraintLayout banner;
     int x = 5;
 
